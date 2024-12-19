@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style/style.css" />
+    <link rel="shortcut icon" href="/src/favicon.ico" type="image/x-icon" />
+    <title>Pokédex</title>
+  </head>
+  <body class="body">
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <h1>Satoshi Pokédex</h1>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Content -->
+      <div class="content">
+        <div class="pokemon-wrapper">
+          <div class="pokemon-wrapper-border pokemon-wrapper-title"></div>
+        </div>
+        <div class="pokemon-wrapper-image">
+          <div class="pokeball-background"></div>
+        </div>
+        <div class="pokemon-wrapper">
+          <div class="pokemon-wrapper-border">
+            <div class="pokemon-description"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Aside -->
+      <aside>
+        <button type="button" class="pokemon-wrapper pokemon-prev">
+          <h1 class="pokemon-text">Prev</h1>
+        </button>
+        <div class="pokemon-wrapper-list">
+          <div class="pokemon-index"></div>
+        </div>
+        <button type="button" class="pokemon-wrapper pokemon-next">
+          <h1 class="pokemon-text">Next</h1>
+        </button>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="about-social-media"></div>
+      <div class="copyright">
+        <h1>Copyright Bintang Mesir 2024.</h1>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script type="module" src="/src/js/main.js"></script>
+    <script type="module" src="/src/js/api.js"></script>
+  </body>
+</html>
