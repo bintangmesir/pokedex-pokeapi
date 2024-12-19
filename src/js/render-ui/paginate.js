@@ -1,3 +1,5 @@
+import { renderDataPokemon } from "./renderDataPokemon.js";
+
 export const paginate = (data) => {
   if (data.next) {
     const pokemonNext = document.querySelector(".pokemon-next");
